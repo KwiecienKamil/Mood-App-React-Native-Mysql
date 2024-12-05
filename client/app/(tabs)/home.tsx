@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     padding: 8,
     position: "relative",
+    // backgroundColor: "#ad5389",
+    // backgroundImage: "linear-gradient(to right, #3c1053, #ad5389)",
   },
   welcome: {
     color: Colors.colors.secondary,
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   moodPicker: {
-    height: "40%",
-    backgroundColor: Colors.colors.secondary,
+    height: "60%",
+    backgroundColor: "rgba(255,255,255,.2)",
   },
 });
